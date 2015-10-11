@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Wiki!</title>
+	<style type="text/css">
+		body
+		{
+			margin:auto;
+			width:85%;
+		}
+		.navibar
+		{
+			width:100%;
+			display:block;
+			margin: auto;
+			margin-top:10px;
+			margin-bottom:10px;
+			background-color:#d3f7b5;
+			border-radius: 10px;
+			padding:7px;
+		}
+		.navibar a
+		{
+			color:blue;
+		}
+		body > table
+		{
+			margin:auto;
+		}
+		.right
+		{
+			display:inline-block;
+			position:relative ;
+			float:right;
+		}
+		.left
+		{
+			display:inline-block;
+			position:relative ;
+		}
+		a
+		{
+			text-decoration: none;
+		}
+		textarea
+		{
+			width:500px;
+			height:500px;
+		}
+		.error
+		{
+			color:red;
+		}
+		td
+		{
+			padding:5px;
+			font-size:17px;
+		}
+		td .content
+		{
+			width:780px;
+		}
+		.tr1
+		{
+			background-color:#d3d5f2;
+		}
+		.tr2
+		{
+			background-color:#f5f3f2 ;
+		}
+	</style>
+</head>
+<body>
+	{% block content %}
+	{% endblock %}
+</body>
+</html>

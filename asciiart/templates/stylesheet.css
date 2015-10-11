@@ -1,0 +1,9 @@
+{% extends "index.html" %}
+{% block css %}
+
+.error
+{
+	color:red;
+}
+
+{% endblock %}

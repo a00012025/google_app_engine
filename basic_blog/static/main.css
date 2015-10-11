@@ -1,0 +1,26 @@
+body
+{
+	width:800px;
+	margin:auto;
+	padding:15px;
+}
+.post
+{
+	background-color:#e2f3d5;
+	margin:auto;
+	padding:15px;
+}
+.subject
+{
+	font-size:26px;
+	font-family: sans-serif;
+}
+.content
+{
+	font-size:15px;
+	font-family:courier;
+}
+.addnew
+{
+	text-align: right;
+}

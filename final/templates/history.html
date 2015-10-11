@@ -1,0 +1,44 @@
+{% extends "basic.html" %}
+{% block content %}
+
+<div class="navibar">
+	<div class="left">
+		<a href="/">Home</a>
+	</div>
+	<div class="right">
+		{% if user %}
+		<a href="/logout">{{user.username}}(Log out)</a>
+		{% else %}
+		<a href="/signup">Sign up</a>
+		<a href="/login">Log in</a>
+		{% endif %}
+	</div>
+</div>
+
+<table>
+	<tr>
+		<th>Time</th>
+		<th>
+			<div class="content">Content</div>
+		</th>
+		<th>Options</th>
+	</tr>
+	{% for i in range(0,len) %}
+	{% if i%2==0 %}
+	<tr class="tr1">
+	{% else %}
+	<tr class="tr2">
+	{% endif %}
+	<td>{{pages[i].created.strftime("%c")}}</td>
+	<td>
+		<div class="content">{{pages[i].content}}</div>
+	</td>
+	<td>
+		<a href="{{name}}?v={{i+1}}">View</a>
+		<a href="/_edit{{name}}?v={{i+1}}">Edit</a>
+	</td>
+	</tr>
+	{% endfor %}
+</table>
+
+{% endblock %}

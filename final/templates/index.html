@@ -1,0 +1,22 @@
+{% extends "basic.html" %}
+{% block content %}
+
+<div class="navibar">
+	<div class="left">
+		<a href="/">Home</a>
+	</div>
+	<div class="right">
+	{% if user %}
+	<a href="/_edit{{pagename}}">Edit</a> | 
+	<a href="/_history{{pagename}}">History</a> | 
+	<a href="/logout">{{user.username}}(Log out)</a>
+	{% else %}
+	<a href="/_history{{pagename}}">History</a> | 
+	<a href="/signup">Sign up</a> | 
+	<a href="/login">Log in</a>
+	{% endif %}
+	</div>
+</div>
+{{content | safe}}
+
+{% endblock %}

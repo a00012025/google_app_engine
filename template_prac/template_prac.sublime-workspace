@@ -1,0 +1,380 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"te",
+				"template_dir"
+			],
+			[
+				"shop",
+				"shopping_output"
+			],
+			[
+				"hidden_",
+				"hidden_list_html"
+			],
+			[
+				"sho",
+				"shopping_list_html"
+			],
+			[
+				"username",
+				"username"
+			],
+			[
+				"writ",
+				"write_form"
+			],
+			[
+				"wri",
+				"write_form"
+			],
+			[
+				"text",
+				"textarea	Tag"
+			],
+			[
+				"tha",
+				"thanks_handler"
+			],
+			[
+				"esc_",
+				"esc_y"
+			],
+			[
+				"day",
+				"day"
+			],
+			[
+				"esc",
+				"escape_html"
+			],
+			[
+				"valid_",
+				"valid_month"
+			],
+			[
+				"re",
+				"request"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.py",
+			"settings":
+			{
+				"buffer_size": 676,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/base.html",
+			"settings":
+			{
+				"buffer_size": 154,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/index.html",
+			"settings":
+			{
+				"buffer_size": 336,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/home/cbd/Informatics/web_development/google_appengine/new_project_template/main.py",
+		"/home/cbd/Informatics/web_development/HTML_CSS_JS_practice/test_form.html",
+		"/home/cbd/Informatics/web_development/google_appengine/helloworld/helloworld.py",
+		"/home/cbd/Informatics/web_development/google_appengine/template_prac/base.html",
+		"/home/cbd/Informatics/web_development/google_appengine/template_prac/index.html",
+		"/home/cbd/Informatics/web_development/google_appengine/template_prac/test.html",
+		"/home/cbd/Informatics/web_development/google_appengine/template_prac/main.py",
+		"/home/cbd/Informatics/web_development/google_appengine/signup/main.py",
+		"/home/cbd/Informatics/web_development/google_appengine/signup/test.html",
+		"/home/cbd/Informatics/web_development/HTML_CSS_JS_practice/test.html",
+		"/home/cbd/Informatics/web_development/google_appengine/rot13/test.html",
+		"/home/cbd/Informatics/web_development/google_appengine/rot13/main.py",
+		"/home/cbd/Informatics/web_development/google_appengine/rot13/rot13.py",
+		"/home/cbd/learnyounode/5.js",
+		"/home/cbd/learnyounode/6-module.js",
+		"/home/cbd/learnyounode/6.js",
+		"/home/cbd/learnyounode/2.js",
+		"/home/cbd/learnyounode/3.js",
+		"/home/cbd/learnyounode/4.js",
+		"/home/cbd/Informatics/web_development/HTML_CSS_JS_practice/2.js",
+		"/home/cbd/learnyounode/1.js",
+		"/home/cbd/HTML_CSS_JS_practice/stylesheet.css",
+		"/home/cbd/HTML_CSS_JS_practice/sample.html",
+		"/home/cbd/HTML_CSS_JS_practice/test.html",
+		"/home/cbd/Informatics/web_development/HTML_CSS_JS_practice/test3.html",
+		"/home/cbd/HTML_CSS_JS_practice/OJ.html",
+		"/home/cbd/HTML_CSS_practice/sample.html",
+		"/home/cbd/HTML_CSS_practice/OJ.html",
+		"/home/cbd/HTML_CSS_practice/stylesheet_OJ.css",
+		"/home/cbd/HTML_CSS_practice/template.html",
+		"/home/cbd/HTML_CSS_practice/stylesheet2.css",
+		"/home/cbd/HTML_CSS_practice/test2.html",
+		"/home/cbd/HTML_CSS_practice/stylesheet1.css",
+		"/home/cbd/HTML_CSS_practice/test1.html",
+		"/home/cbd/HTML_CSS_practice/stylesheet.css",
+		"/home/cbd/HTML_CSS_practice/test.html",
+		"/home/cbd/HTML_CSS_practice/tioj.html",
+		"/media/cbd/DATA1/TG/E/F/2313/新增文字文件.txt",
+		"/home/cbd/Desktop/TMP/POI/pre_tests/pre6a.out",
+		"/home/cbd/Desktop/TMP/POI/pre_tests/pre6b.out",
+		"/home/cbd/Desktop/TMP/POI/pre_tests/pre6c.out",
+		"/home/cbd/Desktop/TMP/POI/pre_tests/pre6d.out",
+		"/home/cbd/Desktop/TMP/POI/pre_tests/pre6e.out",
+		"/home/cbd/Desktop/TMP/POI/pre_tests/pre7a.out",
+		"/home/cbd/Desktop/TMP/POI/pre_tests/pre7b.out",
+		"/home/cbd/Desktop/TMP/POI/pre_tests/pre7c.out",
+		"/home/cbd/Desktop/TMP/POI/pre_tests/pre7d.out",
+		"/home/cbd/Desktop/TMP/POI/pre_tests/pre7e.out"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 676,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								38,
+								38
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 154,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								154,
+								154
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48,
+								48
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "template_prac.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

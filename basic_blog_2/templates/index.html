@@ -1,0 +1,23 @@
+{% extends "basic.html" %}
+{% block content %}
+
+<div class="right">
+	<a href="/newpost">Add new post</a>
+	{% if not user %}
+	<a href="/signup">Sign up</a>
+	<a href="/login">Log in</a>
+	{% else %}
+	Welcome, {{user}}! <a href="/logout">Log out</a>
+	{% endif %}
+</div>
+{% for i in posts %}
+<div class="post">
+	<hr>
+	<div class="subject">
+		<a href="/post/{{i.key().id()}}">{{i.subject}}</a>
+	</div>
+	<pre class="content">{{i.content}}</pre>
+</div>
+{% endfor %}
+
+{% endblock %}

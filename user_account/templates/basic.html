@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CBD's blog</title>
+	<style type="text/css">
+		body
+		{
+			width:800px;
+			margin:auto;
+			padding:15px;
+		}
+		.error
+		{
+			color:red;
+		}
+		.post
+		{
+			background-color:#e2f3d5;
+			margin:auto;
+			padding:15px;
+		}
+		.subject
+		{
+			font-size:26px;
+			font-family: sans-serif;
+		}
+		.content
+		{
+			font-size:15px;
+			font-family:courier;
+		}
+		.addnew
+		{
+			text-align: right;
+		}
+	</style>
+</head>
+<body>
+	<h1>Here is CBD's blog !</h1>
+	<h3>It's a basic blog</h3>
+	{% block content %}
+	{% endblock %}
+</body>
+</html>

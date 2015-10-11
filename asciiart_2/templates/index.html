@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ASCII ART</title>
+	<style type="text/css">
+		body
+		{
+			font-family: sans-serif;
+			margin:auto;
+			width:950px;
+			padding:15px;
+		}
+		.error
+		{
+			color:red;
+			font-size:20px;
+		}
+		form
+		{
+			display:inline-block;
+		}
+		label
+		{
+			display:block;
+			font-size:20px;
+		}
+		textarea
+		{
+			width:500px;
+			height:300px;
+			font-size:12px;
+		}
+		input[type=text]
+		{
+			width:500px;
+			font-size:20px;
+		}
+		input[type=submit]
+		{
+			font-size:25px;
+		}
+		hr
+		{
+			margin:20px;
+		}
+		.art
+		{
+			background-color:#c3d9e2;
+		}
+		.art-title
+		{
+			font-size:25px;
+		}
+		.art-body
+		{
+			font-size:12px;
+		}
+		.center
+		{
+			text-align: center;
+		}
+		.map
+		{
+			position:absolute;
+			right:100px;
+			top:120px;
+		}
+
+	</style>
+</head>
+<body>
+	<h1 class="center">Acsii Art !!!</h1>
+	<form method="post">
+		<label>
+			Title<br><input type="text" name="title" value="{{title}}">
+		</label>
+		<br>
+		<label>
+			Enter your ascii art here:<br><textarea name="art">{{art}}</textarea>
+		</label>
+		<br>
+		<div>{{error}}</div>
+		<input type="submit">
+	</form>
+	{% if img_url %}
+	<img src="{{img_url}}" class="map" />
+	{% endif %}
+	<hr>
+	{% for i in arts %}
+		<div class="art">
+			<div class="art-title">Title : {{i.title}}</div>
+			<pre class="art-body">{{i.art}}</pre>
+		</div>
+	{% endfor %}
+</body>
+</html>

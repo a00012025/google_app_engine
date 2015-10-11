@@ -1,0 +1,15 @@
+{% extends "basic.html" %}
+{% block content %}
+
+<div class="addnew"><a href="/newpost">Add new post</a></div>
+{% for i in posts %}
+<div class="post">
+	<hr>
+	<div class="subject">
+		<a href="/post/{{i.key().id()}}">{{i.subject}}</a>
+	</div>
+	<pre class="content">{{i.content}}</pre>
+</div>
+{% endfor %}
+
+{% endblock %}

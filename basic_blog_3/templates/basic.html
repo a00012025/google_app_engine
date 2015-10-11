@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A basic blog</title>
+	<style type="text/css">
+		body
+		{
+			width:800px;
+			margin:auto;
+			padding:15px;
+		}
+		.error
+		{
+			color:red;
+		}
+		.post
+		{
+			background-color:#e2f3d5;
+			margin:auto;
+			padding:15px;
+		}
+		.subject
+		{
+			font-size:26px;
+			font-family: sans-serif;
+		}
+		.content
+		{
+			font-size:15px;
+			font-family:courier;
+		}
+		.right
+		{
+			text-align: right;
+		}
+		.right a
+		{
+			padding:10px;
+		}
+		.time
+		{
+			text-align: right;
+			right:0px;
+			bottom:0px;
+			font-size:12px;
+			color:gray;
+		}
+	</style>
+</head>
+<body>
+	<h1>Here is my blog !</h1>
+	<h3>It's a basic blog</h3>
+	{% block content %}
+	{% endblock %}
+</body>
+</html>

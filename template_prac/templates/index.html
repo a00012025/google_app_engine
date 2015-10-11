@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block conetent %}
+
+<form>
+	<h2>Add a food</h2>
+	<input name="food">
+	{% for item in food %}
+		<input name="food" type="hidden" value="{{item}}">
+	{% endfor %}
+	<button>Add</button>
+</form>
+<br>
+<br>
+<h2>Shopping List</h2>
+<ul>
+	{% for item in food %}
+		<li>{{item}}</li>
+	{% endfor %}
+</ul>
+
+{% endblock %}
